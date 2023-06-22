@@ -2,7 +2,7 @@
 
 ## Desccription
 
-&emsp; This is an example of back end functionality of e-commerce site that could be used in building an e-commerce platform or building understanding of basic back end functionality.
+&emsp; This is an example of back end functionality of an e-commerce site that could be used in building an e-commerce platform or building understanding of basic back end functionality.
 
 &emsp; With this functional Express.js API, a user must add their own database name, MySQL username, and MYSQL password to an environment variable file (.env). The database name will be the same as in the schema file, unless the user wishes to change it.
 Then, the user will able to connect to the database through Sequalize. When a user creates the database with the schema file, they are able to seed the database and then run the application with the newly deployed database.
