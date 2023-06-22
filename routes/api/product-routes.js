@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
       include: [{ model: Category }, { model: Tag }],
     });
     res.status(200).json(productsData);
-  } catch (error) {
+  } catch (err) {
     res.status(500).json(err);
   }
 });
@@ -29,7 +29,7 @@ router.get("/:id", async (req, res) => {
       return;
     }
     res.status(200).json(productData);
-  } catch (error) {
+  } catch (err) {
     res.status(500).json(err);
   }
 });
@@ -123,7 +123,7 @@ router.delete("/:id", async (req, res) => {
     }
 
     res.status(200).json(productData);
-  } catch (error) {
+  } catch (err) {
     res.status(500).json(err);
   }
 });
