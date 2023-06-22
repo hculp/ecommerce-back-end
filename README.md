@@ -7,7 +7,7 @@
 &emsp; With this functional Express.js API, a user must add their own database name, MySQL username, and MYSQL password to an environment variable file (.env). The database name will be the same as in the schema file, unless the user wishes to change it.
 Then, the user will able to connect to the database through Sequalize. When a user creates the database with the schema file, they are able to seed the database and then run the application with the newly deployed database.
 
-&emsp; Once the user starts the application, the server starts and Sequalize models are synced to the MySQL database. When testing the api routes with a program like Insomnia, the user is able to GET routes for categories, products, and tags. The user is also able to test API's POST, PUT, and DELETE routes for those as well.
+&emsp; Once the user starts the application, the server starts and Sequalize models are synced to the MySQL database. When testing the api routes with a program like Insomnia, the user is able to test GET routes for categories, products, and tags to retrieve all or select by id. The user is also able to test API's POST, PUT, and DELETE routes for those as well.
 This allows the user to create, update, and delete data for their database.
 
 ## Table of Contents
